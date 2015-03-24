@@ -13,7 +13,7 @@ in your HTML file:
 ```
 
 in JavaScript:
-```JaaScript
+```JavaScript
 var object = {data: 5};
 goToJson(object);
 ```
