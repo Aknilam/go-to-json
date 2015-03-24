@@ -8,12 +8,12 @@ Function is responsible for redirecting from JavaScript-based page to http://jso
 # usage
 
 in your HTML file:
-<pre>
+```HTML
 <script type="text/javascript" src="goToJson.js"></script>
-</pre>
+```
 
 in JavaScript:
-<pre>
+```JaaScript
 var object = {data: 5};
 goToJson(object);
-</pre>
+```
