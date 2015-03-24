@@ -14,7 +14,7 @@ Import in HTML file:
 <script type="text/javascript" src="goToJson.js"></script>
 ```
 
-...and have a fun.
+...and have a fun using it!
 
 # usage
 JavaScript:
