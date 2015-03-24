@@ -1,4 +1,4 @@
-function goToJson(value) {
+function goToJson(object) {
   var form = document.createElement("form");
   form.setAttribute("style", "display: none;");
   form.setAttribute("method", "POST");
@@ -6,7 +6,7 @@ function goToJson(value) {
 
   var hiddenField = document.createElement("input");              
   hiddenField.setAttribute("name", "data");
-  hiddenField.setAttribute("value", value);
+  hiddenField.setAttribute("value", JSON.stringify(object));
   form.appendChild(hiddenField);
   document.body.appendChild(form);
 
